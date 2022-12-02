@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Urbanist:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body onload="setInitalValues();">
+    <div class="container-grid">
+      <div class="container-item">
+        <div class="header-grid">
+          <div class="header-grid-item header-logo"></div>
+          <div class="header-grid-item header-name">Neil</div>
+          <div class="header-grid-item header-nav"></div>
+        </div>
+      </div>
+      
+      <div class="container-item"> 
+        <div class="main" id="main">
+          <div class="content">
+            <div class="led balance"></div>
+            <div class="led winnings"></div>
+            <div class="reels"> 
+              <div class="reel one"></div>
+              <div class="reel two"></div>
+              <div class="reel three"></div>
+            </div>
+            <div class="btn deposit" onclick="depositFunds(deposit);">Deposit Funds</div>
+            <div class="btn spin" onclick="startGame();">Spin</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-item">
+        <div class="footer">
+          Slot Machine (not real money) v1.0 by Neil<br/>
+          Fruity icons courtesy of <a href="https://vecteezy.com">Vecteezy.com</a>.
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/extras.js"></script>
+  </html>
+
+
+
+  
