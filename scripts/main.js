@@ -162,9 +162,9 @@ function updateReels(thisSpin) {
     let r0 = thisSpin[0].toLowerCase();
     let r1 = thisSpin[1].toLowerCase();
     let r2 = thisSpin[2].toLowerCase();
-    reelOneText.style.backgroundImage="url('../img/"+r0+".png')"; 
-    reelTwoText.style.backgroundImage="url('../img/"+r1+".png')"; 
-    reelThreeText.style.backgroundImage="url('../img/"+r2+".png')"; 
+    reelOneText.style.backgroundImage="url('img/"+r0+".png')"; 
+    reelTwoText.style.backgroundImage="url('img/"+r1+".png')"; 
+    reelThreeText.style.backgroundImage="url('img/"+r2+".png')"; 
 }
 
 
